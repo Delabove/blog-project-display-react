@@ -1,17 +1,18 @@
 
 
-
+nav {
+    background-color: black;
+}
 ul{
     margin: 0;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    border: black solid .5px;
     padding: 20px;
 }
 
 li{
-    color: black;
+    color: white;
 }
 
 a{
