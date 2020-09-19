@@ -2,6 +2,9 @@
 
 nav {
     background-color: black;
+    padding: 1rem;
+    position: static;
+    width: 100%;
 }
 ul{
     margin: 0;

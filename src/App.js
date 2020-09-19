@@ -2,6 +2,7 @@ import React from 'react';
 import backgroundImage from './styling/background.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Layout from './components/Layout';
 
 
 function App() {
@@ -10,9 +11,10 @@ function App() {
       <backgroundImage />
 
         <Navbar />
-        <main>
 
-        </main>
+        <Layout />
+
+
         <Footer />
 
 
