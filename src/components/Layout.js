@@ -4,6 +4,13 @@ import Style from '../styling/layout.css';
 
 export default function Layout(){
     return(
-       <h1>This is the layout</h1>
+        <div className="layout">
+            <ul>
+                <li>Description</li>
+                <li>Design</li>
+                <li>Technologies</li>
+                <li>Learns</li>
+            </ul>
+        </div>
     )
 };
