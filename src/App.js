@@ -8,9 +8,7 @@ function App() {
     <div className="App">
       <backgroundImage />
       <main>
-      <Navbar />
-      <header>Hello World</header>
-
+        <Navbar />
 
       </main>
 

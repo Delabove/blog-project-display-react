@@ -1,15 +1,15 @@
 import React from 'react';
+import Style from '../styling/navbar.css';
 
 export default function Navbar(){
-
     return(
         <div>
             <ul>
-                <li>Description</li>
-                <li>Design</li>
-                <li>Technologies</li>
-                <li>Learn</li>
+                <a href="#"><li>Description</li></a>
+                <a href="#"><li>Design</li></a>
+                <a href="#"><li>Technologies</li></a>
+                <a href="#"><li>Learns</li></a>
             </ul>
         </div>
     )
-}
+};
