@@ -21,8 +21,7 @@ footer{
     margin: 0;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+    justify-content: center;
 
 }
 
@@ -39,6 +38,44 @@ text-decoration: none;
     margin-right: 10px;
     border-radius: 50%;
 }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width:768px) {
+
+    footer{
+
+        position: absolute;
+
+
+    }
+
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width:992px) {
+
+    footer{
+
+        position: absolute;
+
+
+    }
+
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width:1200px) {
+
+    footer{
+
+        position: absolute;
+
+
+    }
+
+
+}
+
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width:2000px) {
