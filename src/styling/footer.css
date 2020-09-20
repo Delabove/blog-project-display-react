@@ -44,7 +44,7 @@ text-decoration: none;
 
     footer{
 
-        position: absolute;
+        position: static;
 
 
     }
@@ -53,13 +53,13 @@ text-decoration: none;
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width:992px) {
-
+/*
     footer{
 
         position: absolute;
 
 
-    }
+    } */
 
 
 }

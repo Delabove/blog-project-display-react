@@ -5,7 +5,7 @@ import Layout from './Layout';
 
 export default function SocialCode(){
     return(
-        <Link to="/socialCode">
+        <Link to="/social-code">
 
         <div className="layout" xs={12} md={6}>
                 <ul className="layout-list">

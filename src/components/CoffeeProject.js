@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import Style from '../styling/layout.css';
 import Layout from './Layout';
 
-export default function TexasFresh(){
+export default function CoffeeProject(){
     return(
-        <Link to="/texas-Fresh">
+        <Link to="/texasFresh">
         {/* <Layout> */}
         <div className="layout" xs={12} md={6}>
                 <ul className="layout-list">
                     <li className="description">Description
-                        <div> This is different!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit illo necessitatibus accusamus rerum aperiam quaerat, animi perferendis iure maxime esse a similique nam aliquid tenetur dignissimos consequatur repudiandae consectetur facere laudantium. </div>
+                        <div> This is COFFEE PROJECT!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit illo necessitatibus accusamus rerum aperiam quaerat, animi perferendis iure maxime esse a similique nam aliquid tenetur dignissimos consequatur repudiandae consectetur facere laudantium. </div>
                     </li>
                     <li className="design">
                     <h1>Design</h1>
