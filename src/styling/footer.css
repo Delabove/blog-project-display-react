@@ -9,11 +9,10 @@ footer{
     margin-top: 1rem;
     padding: 1rem;
     background-color:#FFDE59;
-    position: sticky;
+    position: static;
     bottom: 0;
     left: 0;
     width: 100%;
-    /* min-height: calc(100vh - 220px); */
 
 }
 
@@ -32,7 +31,7 @@ a{
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media screen and (min-width:1200px) {
+@media screen and (min-width:2000px) {
 
     footer{
 
