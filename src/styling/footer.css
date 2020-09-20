@@ -9,10 +9,12 @@ footer{
     margin-top: 1rem;
     padding: 1rem;
     background-color:#FFDE59;
-    position: static;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    /* min-height: calc(100vh - 220px); */
+
 }
 
 

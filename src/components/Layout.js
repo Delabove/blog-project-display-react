@@ -4,7 +4,7 @@ import Style from '../styling/layout.css';
 
 export default function Layout(){
     return(
-        <div className="layout">
+        <div className="layout" xs={12} md={6}>
             <ul className="layout-list">
                 <li className="description">Description
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit illo necessitatibus accusamus rerum aperiam quaerat, animi perferendis iure maxime esse a similique nam aliquid tenetur dignissimos consequatur repudiandae consectetur facere laudantium. </div>

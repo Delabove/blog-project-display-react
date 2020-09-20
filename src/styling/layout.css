@@ -43,3 +43,21 @@
         background-color: rgb(81, 121, 133);
         border: black solid .5px;
     }
+
+
+
+    @media (max-width: 700px) and (min-width: 500px) {
+        .layout-list {
+            grid-template-columns: max-content;
+    grid-template-rows: max-content;
+
+            grid-template-areas:
+            "description"
+            "design"
+            "learns"
+            "technologies";
+            align-items: center;
+
+            }
+
+    }
