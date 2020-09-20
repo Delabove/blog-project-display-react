@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Style from '../styling/layout.css';
 import Layout from './Layout';
+import Image from '../media/socialCode.png';
 
 export default function SocialCode(){
     return(
@@ -10,19 +11,19 @@ export default function SocialCode(){
         <div className="layout" xs={12} md={6}>
                 <ul className="layout-list">
                     <li className="description">Description
-                        <div> <strong><em>This is even more different!!!</em> </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit illo necessitatibus accusamus rerum aperiam quaerat, animi perferendis iure maxime esse a similique nam aliquid tenetur dignissimos consequatur repudiandae consectetur facere laudantium. </div>
+                        <div> Social Code is a full stack social media application where developers of all experience levels can network, share ideas, and mentor each other. My front end responsibilities for Social Code included wireframing and storyboarding with InVision, basic graphic design, styling with CSS, responsiveness with Bootstrap, and calling on events with JQuery. Using the CRUD paradigm, I designed a follow system on the backend using MVC. I manipulated the database with Java and Spring Boot, while displaying the results using Thymeleaf.</div>
                     </li>
                     <li className="design">
                     <h1>Design</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequatur quam explicabo culpa nam minima. Temporibus praesentium, reprehenderit, cupiditate odit, autem minima eius vel dicta ab a veritatis. Modi, reprehenderit!</p>
-                    <h3>This is an image</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi iste voluptatum excepturi, id consequuntur consequatur nemo quia dignissimos iusto doloribus laborum rem, aperiam molestiae quisquam illo sunt commodi fugit sequi?</p>
+                    <p>Upon conceptualization, I initially created the wireframe and storyboard in InVision. You can take a look at the initial design process <a className="wireframe" href={'https://projects.invisionapp.com/freehand/document/N56IaiokC'} color="blue">here</a>.</p>
+                    <p><img width="100%" className="image" src={Image} alt="social" /></p>
+                    <p>Considering I attended a full stack bootcamp, it was important to me to implement frontend and backend features in my final project. I was drawn to frontend long before I started school. During my time in school, I was adamant on my pursuit with frontend development. While building Social Code, however, I realized backend development had its creative points as well. I found myself enjoying the process of playing on both ends. Because each area requires a different set of thinking skills, however, I noticed the importance of compartmentalizing my days in either front or back. Very seldom did I find it an easy task to go between the two in one day.</p>
                     </li>
                     <li className="technologies">Technologies
-                    <p>This is a list of technologies to make it look like there is a list of technologies in div.</p>
+                    <p>Java, Spring Boot, MySQL, Thymeleaf, CSS, and Bootstrap</p>
                     </li>
                     <li className="learns">
-                    <div> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor at maiores, quibusdam quia facilis vitae culpa distinctio officia consequuntur, expedita deleniti facere ex veniam, voluptatibus voluptatum non? Rerum delectus perspiciatis, illum temporibus atque laudantium odio aspernatur reiciendis ad libero sequi fuga voluptatibus neque odit? Assumenda eveniet tempore modi esse nemo, id at impedit quos libero, animi quam nulla minus! Dolores dolorem dolorum corporis natus veritatis! Nobis sunt, dolorum ipsa odit possimus eum itaque ex. Corporis ipsa sed fuga nihil! Perspiciatis corrupti a illum nostrum pariatur, harum ratione odio totam doloribus necessitatibus, aliquid culpa laudantium aut nemo sapiente vero aperiam officiis!</div>
+                    <div> Building Social Code was an amazing experience. It was the first time I worked on a project with a team where we turned an idea into a tangible, full stack application. My biggest learns from a development standpoint was the importance of clean code, being mindful of naming conventions, and my interest in design patterns, such as MVC, was born. These concepts inspired me to dig deeper into Data Structures and Algorithms post graduation. </div>
                     </li>
                 </ul>
             </div>
