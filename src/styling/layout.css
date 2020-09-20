@@ -1,0 +1,45 @@
+.layout-list {
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    list-style: none;
+    padding: 20px 0;
+    font-size: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: max-content;
+    grid-column-gap: 3px;
+    grid-gap: 3rem;
+    grid-template-areas:
+    "description design design"
+    "description design design"
+    "learns learns technologies";
+    align-items: center;
+
+    }
+.layout{
+    display: flex;
+    justify-content: center;
+}
+    .description{
+        grid-area: description;
+        background-color: lightblue;
+        border: black solid .5px;
+    }
+
+    .design{
+        grid-area: design;
+        background-color: rgb(123, 171, 185);
+        border: black solid .5px;
+    }
+
+    .learns{
+        grid-area: learns;
+        background-color: rgb(57, 89, 99);
+        border: black solid .5px;
+    }
+
+    .technologies{
+        grid-area: technologies;
+        background-color: rgb(81, 121, 133);
+        border: black solid .5px;
+    }
