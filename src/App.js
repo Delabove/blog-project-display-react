@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Layout from './components/Layout';
 import Main from './components/Main';
+// import TexasFresh from './components/TexasFresh';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Main />
         <Layout />
+        {/* <TexasFresh /> */}
 
 
         <Footer />
