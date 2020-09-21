@@ -10,7 +10,7 @@ import learns from '../media/learns.png';
 
 export default function TexasFresh(){
     return(
-        <Link to="/">
+        // <Link to="/">
         {/* <Layout> */}
         <div className="layout" xs={12} md={6}>
         <ul className="layout-list">
@@ -35,6 +35,6 @@ export default function TexasFresh(){
                 </ul>
             </div>
             {/* </Layout> */}
-        </Link>
+        // </Link>
     )
 };

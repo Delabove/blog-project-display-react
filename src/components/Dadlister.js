@@ -11,7 +11,7 @@ import learns from '../media/learns.png';
 
 export default function Dadlister(){
     return(
-        <Link to="/dadlister">
+        // <Link to="/dadlister">
 
         <div className="layout" xs={12} md={6}>
         <ul className="layout-list">
@@ -36,6 +36,6 @@ export default function Dadlister(){
                 </ul>
             </div>
 
-        </Link>
+        // </Link>
     )
 };

@@ -22,6 +22,10 @@ function App() {
           <Navbar/>
         </header>
         <main>
+        <Link to="/"><TexasFresh/></Link>
+        <Link to="/dadlister"><Dadlister/></Link>
+
+
           {/* <React.Suspense fallback="Loading..."> */}
             <Switch>
               <Route exact path="/" component= {TexasFresh}></Route>
