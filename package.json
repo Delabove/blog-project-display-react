@@ -11,7 +11,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "typeface-roboto": "0.0.75",
-    "homepage": "https://github.com/Delabove/blog-project-display-react"
+    "homepage": "https://delabove.github.io/blog-project-display-react"
   },
   "scripts": {
     "predeploy": "npm run build",
