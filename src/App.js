@@ -22,12 +22,8 @@ function App() {
           <Navbar/>
         </header>
         <main>
-        <TexasFresh/>
-        <Dadlister/>
-
-
-          {/* <React.Suspense fallback="Loading..."> */}
-            <Switch>
+          <React.Suspense fallback="Loading...">
+            {/* <Switch> */}
               <Route exact path="/" component= {TexasFresh}></Route>
               <Route exact path="/social-code" component= {SocialCode}></Route>
               <Route exact path="/travel-blog" component= {TravelBlog}></Route>
@@ -35,8 +31,8 @@ function App() {
               <Route exact path="/weathermap" component={Weathermap}></Route>
               <Route  exact path="/react-patterns" component= {ReactPatterns}></Route>
               <Route exact path="/dadlister" component= {Dadlister}></Route>
-            </Switch>
-          {/* </React.Suspense> */}
+            {/* </Switch> */}
+          </React.Suspense>
         </main>
         <footer>
           <Footer />
