@@ -1,6 +1,7 @@
 {
   "name": "blog-project-display",
   "version": "0.1.0",
+  "homepage": "https://delabove.github.io/blog-project-display-react",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,8 +11,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "typeface-roboto": "0.0.75",
-    "homepage": "https://delabove.github.io/blog-project-display-react"
+    "typeface-roboto": "0.0.75"
   },
   "scripts": {
     "predeploy": "npm run build",
