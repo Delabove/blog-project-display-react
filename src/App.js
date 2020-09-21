@@ -21,21 +21,23 @@ function App() {
         <header>
           <Navbar/>
         </header>
-        <Switch>
         <main>
+        <Switch>
+
             {/* <TexasFresh /> */}
             <Route exact path="/" component={TexasFresh} />
             {/* <SocialCode />
              */}
-             <Route exact path="/SocialCode" component={SocialCode} />
+             <Route path="/socialcode" component={SocialCode} />
 
-            <Dadlister />
+            {/* <Dadlister />
             <ReactPatterns />
             <TravelBlog />
             <CoffeeProject />
-            <Weathermap />
-        </main>
+            <Weathermap /> */}
+
         </Switch>
+        </main>
         <footer>
           <Footer />
         </footer>
