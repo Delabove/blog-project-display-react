@@ -22,8 +22,8 @@ function App() {
           <Navbar/>
         </header>
         <main>
-        <Link to="/"><TexasFresh/></Link>
-        <Link to="/dadlister"><Dadlister/></Link>
+        <TexasFresh/>
+        <Dadlister/>
 
 
           {/* <React.Suspense fallback="Loading..."> */}
