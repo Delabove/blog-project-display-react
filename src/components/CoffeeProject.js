@@ -5,8 +5,8 @@ import Layout from './Layout';
 
 export default function CoffeeProject(){
     return(
-        <Link to="/texasFresh">
-        {/* <Layout> */}
+        <Link to="/coffee-project">
+
         <div className="layout" xs={12} md={6}>
                 <ul className="layout-list">
                     <li className="description">Description
@@ -26,7 +26,7 @@ export default function CoffeeProject(){
                     </li>
                 </ul>
             </div>
-            {/* </Layout> */}
+
         </Link>
     )
 };

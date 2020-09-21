@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import backgroundImage from './styling/background.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <backgroundImage />
-      <BrowserRouter>
+      <Router>
       <div>
         <header>
           <Navbar/>
@@ -24,27 +24,13 @@ function App() {
         <main>
           <React.Suspense fallback="Loading...">
             <Switch>
-              <Route path="/" component= {TexasFresh}>
-                <TexasFresh/>
-              </Route>
-              <Route path="/social-code">
-              <SocialCode />
-              </Route>
-              <Route path="/travel-blog">
-              <TravelBlog />
-              </Route>
-              <Route path="/coffee-project">
-              <CoffeeProject />
-              </Route>
-              <Route path="/weathermap">
-              <Weathermap />
-              </Route>
-              <Route path="/react-patterns">
-              <ReactPatterns />
-              </Route>
-              <Route path="/dadlister">
-              <Dadlister />
-              </Route>
+              <Route exact path="/" component= {TexasFresh}></Route>
+              <Route exact path="/social-code" component= {SocialCode}></Route>
+              <Route exact path="/travel-blog" component= {TravelBlog}></Route>
+              <Route exact path="/coffee-project" component={CoffeeProject}></Route>
+              <Route exact path="/weathermap" component={Weathermap}></Route>
+              <Route  exact path="/react-patterns" component= {ReactPatterns}></Route>
+              <Route exact path="/dadlister" component= {Dadlister}></Route>
             </Switch>
           </React.Suspense>
         </main>
@@ -52,7 +38,7 @@ function App() {
           <Footer />
         </footer>
       </div>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

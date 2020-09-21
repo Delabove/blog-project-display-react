@@ -6,7 +6,7 @@ import Layout from './Layout';
 export default function TravelBlog(){
     return(
         <Link to="/travel-blog">
-        {/* <Layout> */}
+
         <div className="layout" xs={12} md={6}>
                 <ul className="layout-list">
                     <li className="description">Description
@@ -26,7 +26,7 @@ export default function TravelBlog(){
                     </li>
                 </ul>
             </div>
-            {/* </Layout> */}
+
         </Link>
     )
 };
