@@ -28,7 +28,7 @@ function App() {
             <Route exact path="/" component={TexasFresh} />
             {/* <SocialCode />
              */}
-             <Route path="/socialcode" component={SocialCode} />
+            <Route path="/socialcode" component={SocialCode} />
 
             {/* <Dadlister />
             <ReactPatterns />
