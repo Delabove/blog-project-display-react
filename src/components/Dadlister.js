@@ -2,27 +2,36 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Style from '../styling/layout.css';
 import Layout from './Layout';
+import Image from '../media/dadlister.png';
+import desc from '../media/description.png';
+import design from '../media/design.png';
+import technologies from '../media/technologies.png';
+import learns from '../media/learns.png';
+
 
 export default function Dadlister(){
     return(
         <Link to="/dadlister">
         {/* <Layout> */}
         <div className="layout" xs={12} md={6}>
-                <ul className="layout-list">
-                    <li className="description">Description
-                        <div> This is DADLISTER!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit illo necessitatibus accusamus rerum aperiam quaerat, animi perferendis iure maxime esse a similique nam aliquid tenetur dignissimos consequatur repudiandae consectetur facere laudantium. </div>
+        <ul className="layout-list">
+                    <li className="description">
+                    <p><img width="100%" className="img" src={desc} alt="social" /></p>
+                        <div className="project-body"> My teammates and I were given the task of taking a previously coded Craigslist inspired project, create a theme and bring it to life! In four days, we created DadLister, an application where volunteers can sign up to offer help with hard to do tasks such as do it yourself projects and changing flat tires.</div>
                     </li>
                     <li className="design">
-                    <h1>Design</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequatur quam explicabo culpa nam minima. Temporibus praesentium, reprehenderit, cupiditate odit, autem minima eius vel dicta ab a veritatis. Modi, reprehenderit!</p>
-                    <h3>This is an image</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi iste voluptatum excepturi, id consequuntur consequatur nemo quia dignissimos iusto doloribus laborum rem, aperiam molestiae quisquam illo sunt commodi fugit sequi?</p>
+                    <p><img width="110%" className="smaller-title" src={design} alt="social" /></p>
+                    <p className="project-body"> We split the tasks up according to our strengths and I tackled all things frontend!</p>
+                    <p><img width="100%" className="image" src={Image} alt="social" /></p>
+                    <p className="project-body">I had a blast with Dadlister. This project was the first time I felt I could truly showcase my capabilities on the frontend. I created the application's graphics using Canva and styled each jsp using individual stylesheets. I toyed with using CSS animations which allowed me to dig a little deeper into the "why's" behind CSS syntax and properties.</p>
                     </li>
-                    <li className="technologies">Technologies
-                    <p>This is a list of technologies to make it look like there is a list of technologies in div.</p>
+                    <li className="technologies">
+                    <p><img width="100%" className="img" src={technologies} alt="social" /></p>
+                    <p className="project-body">Java, MySQL, HTML, JavaScript and CSS</p>
                     </li>
                     <li className="learns">
-                    <div> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor at maiores, quibusdam quia facilis vitae culpa distinctio officia consequuntur, expedita deleniti facere ex veniam, voluptatibus voluptatum non? Rerum delectus perspiciatis, illum temporibus atque laudantium odio aspernatur reiciendis ad libero sequi fuga voluptatibus neque odit? Assumenda eveniet tempore modi esse nemo, id at impedit quos libero, animi quam nulla minus! Dolores dolorem dolorum corporis natus veritatis! Nobis sunt, dolorum ipsa odit possimus eum itaque ex. Corporis ipsa sed fuga nihil! Perspiciatis corrupti a illum nostrum pariatur, harum ratione odio totam doloribus necessitatibus, aliquid culpa laudantium aut nemo sapiente vero aperiam officiis!</div>
+                    <p><img width="100%" className="smaller-title" src={learns} alt="social" /></p>
+                    <div className="project-body"> My biggest learns from Dadlister, was how to use Java to dynamically generate html pages and interact with a MySQL database. During this project, we worked with a larger team which brought a new dynamic to committing changes to Github.</div>
                     </li>
                 </ul>
             </div>
