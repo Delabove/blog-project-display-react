@@ -23,15 +23,15 @@ function App() {
         </header>
         <main>
           <React.Suspense fallback="Loading...">
-            {/* <Switch> */}
+            <Switch>
               <Route exact path="/" component= {TexasFresh}></Route>
-              <Route exact path="/social-code" component= {SocialCode}></Route>
-              <Route exact path="/travel-blog" component= {TravelBlog}></Route>
-              <Route exact path="/coffee-project" component={CoffeeProject}></Route>
-              <Route exact path="/weathermap" component={Weathermap}></Route>
-              <Route  exact path="/react-patterns" component= {ReactPatterns}></Route>
-              <Route exact path="/dadlister" component= {Dadlister}></Route>
-            {/* </Switch> */}
+              <Route path="/social-code" component= {SocialCode}></Route>
+              <Route path="/travel-blog" component= {TravelBlog}></Route>
+              <Route path="/coffee-project" component={CoffeeProject}></Route>
+              <Route path="/weathermap" component={Weathermap}></Route>
+              <Route path="/react-patterns" component= {ReactPatterns}></Route>
+              <Route path="/dadlister" component= {Dadlister}></Route>
+            </Switch>
           </React.Suspense>
         </main>
         <footer>
