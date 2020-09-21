@@ -6,9 +6,8 @@ import "typeface-roboto";
 
 
 ReactDOM.render(
-  ReactDOM.render((
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <App />
+  <BrowserRouter>
+    <App />
     </BrowserRouter>,
   document.getElementById('root')
 );
