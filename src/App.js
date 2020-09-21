@@ -22,7 +22,7 @@ function App() {
           <Navbar/>
         </header>
         <main>
-          <React.Suspense fallback="Loading...">
+          {/* <React.Suspense fallback="Loading..."> */}
             <Switch>
               <Route exact path="/" component= {TexasFresh}></Route>
               <Route exact path="/social-code" component= {SocialCode}></Route>
@@ -32,7 +32,7 @@ function App() {
               <Route  exact path="/react-patterns" component= {ReactPatterns}></Route>
               <Route exact path="/dadlister" component= {Dadlister}></Route>
             </Switch>
-          </React.Suspense>
+          {/* </React.Suspense> */}
         </main>
         <footer>
           <Footer />
