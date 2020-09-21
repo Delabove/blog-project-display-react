@@ -24,7 +24,7 @@ function App() {
         <main>
           <React.Suspense fallback="Loading...">
             <Switch>
-              <Route path="/texas-fresh">
+              <Route path="/" component= {TexasFresh}>
                 <TexasFresh/>
               </Route>
               <Route path="/social-code">
