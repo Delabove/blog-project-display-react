@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import backgroundImage from './styling/background.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -16,29 +16,31 @@ function App() {
   return (
     <div className="App">
       <backgroundImage />
-      <Router>
+
       <div>
         <header>
           <Navbar/>
         </header>
+        <Switch>
         <main>
-          <React.Suspense fallback="Loading...">
-            <Switch>
-              <Route exact path="/" component= {TexasFresh}><TexasFresh/></Route>
-              <Route path="/social-code" component= {SocialCode}></Route>
-              <Route path="/travel-blog" component= {TravelBlog}></Route>
-              <Route path="/coffee-project" component={CoffeeProject}></Route>
-              <Route path="/weathermap" component={Weathermap}></Route>
-              <Route path="/react-patterns" component= {ReactPatterns}></Route>
-              <Route path="/dadlister" component= {Dadlister}></Route>
-            </Switch>
-          </React.Suspense>
+            {/* <TexasFresh /> */}
+            <Route exact path="/" component={TexasFresh} />
+            {/* <SocialCode />
+             */}
+             <Route exact path="/SocialCode" component={SocialCode} />
+
+            <Dadlister />
+            <ReactPatterns />
+            <TravelBlog />
+            <CoffeeProject />
+            <Weathermap />
         </main>
+        </Switch>
         <footer>
           <Footer />
         </footer>
       </div>
-      </Router>
+
     </div>
   );
 }
