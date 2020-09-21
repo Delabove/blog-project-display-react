@@ -2,16 +2,13 @@
 
 nav {
     background-color: black;
-    padding: 1rem;
     position: static;
+    padding-top: 10px;
     width: 100%;
 }
 .link-container {
-    margin: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+   text-align: center;
+
 }
 
 .nav-item{
