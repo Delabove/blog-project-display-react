@@ -7,7 +7,7 @@ import "typeface-roboto";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/blog-project-display-react">
         <App />
     </BrowserRouter>
   </React.StrictMode>,

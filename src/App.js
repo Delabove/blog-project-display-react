@@ -23,11 +23,8 @@ function App() {
         </header>
         <main>
         <Switch>
-
-            {/* <TexasFresh /> */}
             <Route exact path="/" component={TexasFresh} />
-            {/* <SocialCode />
-             */}
+
             <Route path="/socialcode" component={SocialCode} />
 
             {/* <Dadlister />
@@ -35,7 +32,6 @@ function App() {
             <TravelBlog />
             <CoffeeProject />
             <Weathermap /> */}
-
         </Switch>
         </main>
         <footer>

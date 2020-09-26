@@ -10,7 +10,7 @@ import learns from '../media/learns.png';
 
 export default function SocialCode(){
     return(
-        <Link to="/SocialCode">
+        <Link to="/socialcode">
         <div className="layout" xs={12} md={6}>
                 <ul className="layout-list">
                     <li className="description">
@@ -33,6 +33,6 @@ export default function SocialCode(){
                     </li>
                 </ul>
             </div>
-        </Link>
+         </Link>
     )
 };
