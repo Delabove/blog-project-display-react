@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/blog-project-display-react/static/css/main.235ee1ca.chunk.css",
-    "main.js": "/blog-project-display-react/static/js/main.9aeaf857.chunk.js",
-    "main.js.map": "/blog-project-display-react/static/js/main.9aeaf857.chunk.js.map",
+    "main.js": "/blog-project-display-react/static/js/main.7cfd43dd.chunk.js",
+    "main.js.map": "/blog-project-display-react/static/js/main.7cfd43dd.chunk.js.map",
     "runtime-main.js": "/blog-project-display-react/static/js/runtime-main.d405ccbf.js",
     "runtime-main.js.map": "/blog-project-display-react/static/js/runtime-main.d405ccbf.js.map",
     "static/css/2.01f54c21.chunk.css": "/blog-project-display-react/static/css/2.01f54c21.chunk.css",
-    "static/js/2.f851d48a.chunk.js": "/blog-project-display-react/static/js/2.f851d48a.chunk.js",
-    "static/js/2.f851d48a.chunk.js.map": "/blog-project-display-react/static/js/2.f851d48a.chunk.js.map",
+    "static/js/2.e0113182.chunk.js": "/blog-project-display-react/static/js/2.e0113182.chunk.js",
+    "static/js/2.e0113182.chunk.js.map": "/blog-project-display-react/static/js/2.e0113182.chunk.js.map",
     "index.html": "/blog-project-display-react/index.html",
-    "precache-manifest.4c9ce250ce580dec33016cdceed5e1b6.js": "/blog-project-display-react/precache-manifest.4c9ce250ce580dec33016cdceed5e1b6.js",
+    "precache-manifest.f54105ee20059ef647aa02f08ba97d74.js": "/blog-project-display-react/precache-manifest.f54105ee20059ef647aa02f08ba97d74.js",
     "service-worker.js": "/blog-project-display-react/service-worker.js",
     "static/css/2.01f54c21.chunk.css.map": "/blog-project-display-react/static/css/2.01f54c21.chunk.css.map",
     "static/css/main.235ee1ca.chunk.css.map": "/blog-project-display-react/static/css/main.235ee1ca.chunk.css.map",
-    "static/js/2.f851d48a.chunk.js.LICENSE.txt": "/blog-project-display-react/static/js/2.f851d48a.chunk.js.LICENSE.txt",
+    "static/js/2.e0113182.chunk.js.LICENSE.txt": "/blog-project-display-react/static/js/2.e0113182.chunk.js.LICENSE.txt",
     "static/media/Insta.png": "/blog-project-display-react/static/media/Insta.55ec63b8.png",
     "static/media/alumniPortal.png": "/blog-project-display-react/static/media/alumniPortal.023edad8.png",
     "static/media/dadlister.png": "/blog-project-display-react/static/media/dadlister.183e66a6.png",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.d405ccbf.js",
     "static/css/2.01f54c21.chunk.css",
-    "static/js/2.f851d48a.chunk.js",
+    "static/js/2.e0113182.chunk.js",
     "static/css/main.235ee1ca.chunk.css",
-    "static/js/main.9aeaf857.chunk.js"
+    "static/js/main.7cfd43dd.chunk.js"
   ]
 }
