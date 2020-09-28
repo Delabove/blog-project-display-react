@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import App from './App';
 import "typeface-roboto";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/blog-project-display-react">
-        <App />
-    </BrowserRouter>
+  <HashRouter basename="/blog-project-display-react">
+      <App />
+  </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
